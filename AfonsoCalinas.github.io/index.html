@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Afonso Calinas</title>
+    <link rel="stylesheet" href="src/style.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="192x192" href="src/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="src/favicons/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="src/favicons/site.webmanifest">
+  </head>
+  <body>
+    <!-- Background and Social Bar at the right -->
+    <canvas id="webgl"></canvas>
+    <div class="side-social">
+      <a href="https://github.com/AfonsoCalinas" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFFACD" width="24" height="24">
+          <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.58.11.79-.25.79-.56 0-.27-.01-1.16-.02-2.1-3.2.69-3.88-1.54-3.88-1.54-.53-1.36-1.28-1.72-1.28-1.72-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.18a10.93 10.93 0 012.86-.38c.97 0 1.94.13 2.86.38 2.18-1.49 3.14-1.18 3.14-1.18.62 1.57.23 2.73.11 3.02.73.81 1.18 1.83 1.18 3.09 0 4.43-2.69 5.41-5.25 5.69.41.35.77 1.04.77 2.09 0 1.51-.01 2.73-.01 3.1 0 .31.21.68.8.56A10.99 10.99 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/>
+        </svg>
+      </a>
+
+      <a href="https://linkedin.com/in/afonso-calinas/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FFFACD" width="24" height="24">
+          <path d="M4.98 3.5C4.98 5 3.9 6 2.5 6S0 5 0 3.5 1.1 1 2.5 1 4.98 2 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.78-2.2 4.04 0 4.77 2.66 4.77 6.1V24h-4v-7.9c0-1.88-.03-4.3-2.62-4.3-2.62 0-3.02 2.05-3.02 4.16V24h-4V8z"/>
+        </svg>
+      </a>
+    </div>
+    <!-- /// -->
+    
+    <!-- Home Screen Section -->
+    <div class="homeIntro" id="home">
+      <div class="name-block">
+        <span class="first-name">Afonso</span>
+        <span class="last-name">Calinas</span>
+        <p class="description">Hey, you! You're finnally awake! Here's, uhmm ... Me!</p>
+      </div>
+    </div>
+    
+    <button class="endOfLine" id="next-button">
+      <img src="src/assets/next-button.png" alt="Next"> 
+    </button>
+
+
+    <!-- About Me Section -->
+    <div id="about-me" class="section">
+      <div id="me-gif-wrapper">
+        <img src="src/assets/Me.gif" alt="About Me GIF">
+      </div>
+      <div class="right-text">
+        <h2>I'm uhh...</h2>
+        <p>
+          University student, studying for my BSc in Computer Science and Engineering.
+          I love to play games and crack a few jokes here and there, overall having a good time!
+          Over the years I've been starting to get a feeling for developing games and in this page you will be able to see some of my projects!
+        </p>
+      </div>
+    </div>
+
+    <!-- Rainy Adventures Section -->
+    <div id="rainy-adventures" class="section">
+      <div class="left-text">
+        <h2>Rainy Adventures <a href="https://pew-pew-tuga.itch.io/rainy-adventures" target="_blank" rel="noopener noreferrer" title="Rainy Adventures on itch.io">↗</a></h2>
+        <p>
+          The first ever game I could say I finished! I know right? Amazing!
+          It's a platform game, that I had to deliver as one of my first quests to get into the <a href="https://gamedev.tecnico.ulisboa.pt/" target="_blank">game dev group</a> from my university.
+          Also, the game is named after my friend's ign, Rainy!
+        </p>
+      </div>
+      <div id="right-gif-wrapper">
+        <img src="src/assets/RainyAdventuresGIF.gif" alt="Rainy Adventures GIF">
+      </div>
+    </div>
+
+    <!-- Hack Dance Section -->
+    <div id="hack-dance" class="section">
+      <div id="left-gif-wrapper">
+        <img src="src/assets/HackDanceGIF.gif" alt="Hack Dance GIF">
+      </div>
+      <div class="right-text">
+        <h2>Hack Dance <a href="https://shiroexe.itch.io/hackdance" target="_blank" rel="noopener noreferrer" title="Hack Dance on itch.io">↗</a></h2>
+        <p>
+          My second ever game I developed BUT! The first one I ever developed with a team!!
+          We participated on a Jam, more specifically a Cyberpunk-themed Jam and we got up to 7th place, with a dance/rhythm game!
+          For me it was an amazing result since it was the first ever Jam I took part in, but also have to be honest and say that
+          making games with a deadline in mind can be sometimes frustrating. Nevertheless, it was overall a great experience!
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+    <script type="module">
+      const sections = ["#home", "#about-me", "#rainy-adventures", "#hack-dance"];
+      let currentSection = 0;
+      let contentInitialized = false;
+
+      document.getElementById("next-button").addEventListener("click", async () => {
+        currentSection = (currentSection + 1) % sections.length;
+        document.querySelector(sections[currentSection]).scrollIntoView({ behavior: "smooth" });
+      });
+    </script>
+
+  </body>
+</html>
